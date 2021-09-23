@@ -36,6 +36,9 @@ A collection of useful SPWN utilities and modules
 > ### [collection](utils/collection.spwn) by `camila314`
 > Implementation of a runtime array with a group cost of 5 per index no matter the size
 
+> ### [ASCII code converter](utils/ascii.spwn) by `sertdfyguhi`
+> ascii code convert in SPWN
+
 ## Repositories
 > ### [spwn-quines](https://github.com/Deltara3/spwn-quines)
 > A collection of SPWN quines
