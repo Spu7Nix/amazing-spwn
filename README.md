@@ -34,7 +34,7 @@ A collection of useful SPWN utilities and modules
 > ### [spwn-advancedrng](https://github.com/typicaldev1/spwn-advancedrng) by `typicaldev1`
 > This library allows you to generate pseudo-random numbers in Geometry Dash.
 
-> ### [Conway's Game Of Life](utils/gol.spwn) by `Sput7Nix`
+> ### [Conway's Game Of Life](utils/gol.spwn) by `Spu7Nix`
 > COnway's Game Of Life
 
 ## Utilities
@@ -50,7 +50,7 @@ A collection of useful SPWN utilities and modules
 > ### [ASCII code converter](utils/ascii.spwn) by `sertdfyguhi`
 > ascii code convert in SPWN
 
-> ### [BF interpreter](utils/bf-interpreter.spwn) by `Sput7Nix`
+> ### [BF interpreter](utils/bf-interpreter.spwn) by `Spu7Nix`
 > Brainf#ck interpreter. No setup needed
 
 > ### [pi.spwn](utils/pi.spwn) by `adaf`
