@@ -25,6 +25,17 @@ A collection of useful SPWN utilities and modules
 > ### [SPWN-ndimens](https://github.com/SpeckyYT/spwn-ndimens) by `Specky`
 > Simple utility function for creating n-dimensional arrays easily
 
+> ### [SPWN-Binary-Calculator](https://github.com/SMJSGaming/SPWN-Binary-Calculator) by `SMJS`
+> A binary/decimal converter
+
+> ### [spwn-rng](https://github.com/Wyliemaster/spwn-rng) by `Wylie`
+> Simple random number generator
+
+> ### [spwn-advancedrng](https://github.com/typicaldev1/spwn-advancedrng) by `typicaldev1`
+> This library allows you to generate pseudo-random numbers in Geometry Dash.
+
+> ### [Conway's Game Of Life](utils/gol.spwn) by `Sput7Nix`
+> COnway's Game Of Life
 
 ## Utilities
 > ### [SPWN-it Discord Bot](https://github.com/typicaldev1/spwn-it-bot) by `typicaldev1`
@@ -41,6 +52,9 @@ A collection of useful SPWN utilities and modules
 
 > ### [BF interpreter](utils/bf-interpreter.spwn) by `Sput7Nix`
 > Brainf#ck interpreter. No setup needed
+
+> ### [pi.spwn](utils/pi.spwn) by `adaf`
+> Calculates PI number
 
 ## Repositories
 > ### [spwn-quines](https://github.com/Deltara3/spwn-quines)
