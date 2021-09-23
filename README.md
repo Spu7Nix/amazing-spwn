@@ -1,7 +1,7 @@
 # amazing-spwn
 A collection of useful SPWN utilities and modules
 
-### DM me on discord (`typicaldev#0001`) if you want your project to be added!
+### DM me on discord (`typicaldev#0001`) if you want your project to be added! (or create pull request)
 
 ## Libraries
 > ### [is-number](https://github.com/SpeckyYT/is-number) by `Specky`
