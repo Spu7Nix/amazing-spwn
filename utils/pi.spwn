@@ -1,0 +1,34 @@
+let digits = 4;
+
+digits = 4 * (10 ^ digits);
+
+total_counter = counter(digits);
+i = counter(1);
+t1 = counter();
+t2 = counter();
+
+total_counter.display(300, 300)
+i.display(150, 300)
+t1.display(150, 270)
+t2.display(150, 240)
+
+add_sub = counter(1)
+add_sub.display(300, 210)
+
+count = !{
+    i += 2;
+    t2.reset(speed = 12)
+    t1 += digits
+    i.copy_to([t2], speed = 12)
+    t1.divide(t2, speed = 5)
+
+    if add_sub == 1 {
+        t1.subtract_from([total_counter], speed = 15)
+        add_sub -= 1
+    } else {
+        t1.add_to([total_counter], speed = 15)
+        add_sub += 1
+    }
+    count!
+}
+count!
