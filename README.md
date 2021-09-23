@@ -39,6 +39,9 @@ A collection of useful SPWN utilities and modules
 > ### [ASCII code converter](utils/ascii.spwn) by `sertdfyguhi`
 > ascii code convert in SPWN
 
+> ### [BF interpreter](utils/bf-interpreter.spwn) by `Sput7Nix`
+> Brainf#ck interpreter. No setup needed
+
 ## Repositories
 > ### [spwn-quines](https://github.com/Deltara3/spwn-quines)
 > A collection of SPWN quines
