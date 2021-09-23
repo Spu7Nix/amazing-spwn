@@ -1,0 +1,24 @@
+// only works when run using spwn compiled from source
+ascii_table = ['AA==', 'AQ==', 'Ag==', 'Aw==', 'BA==', 'BQ==', 'Bg==', 'Bw==', 'CA==', 'CQ==', 'Cg==', 'Cw==', 'DA==', 'DQ==', 'Dg==', 'Dw==', 'EA==', 'EQ==', 'Eg==', 'Ew==', 'FA==', 'FQ==', 'Fg==', 'Fw==', 'GA==', 'GQ==', 'Gg==', 'Gw==', 'HA==', 'HQ==', 'Hg==', 'Hw==', 'IA==', 'IQ==', 'Ig==', 'Iw==', 'JA==', 'JQ==', 'Jg==', 'Jw==', 'KA==', 'KQ==', 'Kg==', 'Kw==', 'LA==', 'LQ==', 'Lg==', 'Lw==', 'MA==', 'MQ==', 'Mg==', 'Mw==', 'NA==', 'NQ==', 'Ng==', 'Nw==', 'OA==', 'OQ==', 'Og==', 'Ow==', 'PA==', 'PQ==', 'Pg==', 'Pw==', 'QA==', 'QQ==', 'Qg==', 'Qw==', 'RA==', 'RQ==', 'Rg==', 'Rw==', 'SA==', 'SQ==', 'Sg==', 'Sw==', 'TA==', 'TQ==', 'Tg==', 'Tw==', 'UA==', 'UQ==', 'Ug==', 'Uw==', 'VA==', 'VQ==', 'Vg==', 'Vw==', 'WA==', 'WQ==', 'Wg==', 'Ww==', 'XA==', 'XQ==', 'Xg==', 'Xw==', 'YA==', 'YQ==', 'Yg==', 'Yw==', 'ZA==', 'ZQ==', 'Zg==', 'Zw==', 'aA==', 'aQ==', 'ag==', 'aw==', 'bA==', 'bQ==', 'bg==', 'bw==', 'cA==', 'cQ==', 'cg==', 'cw==', 'dA==', 'dQ==', 'dg==', 'dw==', 'eA==', 'eQ==', 'eg==', 'ew==', 'fA==', 'fQ==', 'fg==', 'fw==', 'woA=', 'woE=', 'woI=', 'woM=', 'woQ=', 'woU=', 'woY=', 'woc=', 'wog=', 'wok=', 'woo=', 'wos=', 'wow=', 'wo0=', 'wo4=', 'wo8=', 'wpA=', 'wpE=', 'wpI=', 'wpM=', 'wpQ=', 'wpU=', 'wpY=', 'wpc=', 'wpg=', 'wpk=', 'wpo=', 'wps=', 'wpw=', 'wp0=', 'wp4=', 'wp8=', 'wqA=', 'wqE=', 'wqI=', 'wqM=', 'wqQ=', 'wqU=', 'wqY=', 'wqc=', 'wqg=', 'wqk=', 'wqo=', 'wqs=', 'wqw=', 'wq0=', 'wq4=', 'wq8=', 'wrA=', 'wrE=', 'wrI=', 'wrM=', 'wrQ=', 'wrU=', 'wrY=', 'wrc=', 'wrg=', 'wrk=', 'wro=', 'wrs=', 'wrw=', 'wr0=', 'wr4=', 'wr8=', 'w4A=', 'w4E=', 'w4I=', 'w4M=', 'w4Q=', 'w4U=', 'w4Y=', 'w4c=', 'w4g=', 'w4k=', 'w4o=', 'w4s=', 'w4w=', 'w40=', 'w44=', 'w48=', 'w5A=', 'w5E=', 'w5I=', 'w5M=', 'w5Q=', 'w5U=', 'w5Y=', 'w5c=', 'w5g=', 'w5k=', 'w5o=', 'w5s=', 'w5w=', 'w50=', 'w54=', 'w58=', 'w6A=', 'w6E=', 'w6I=', 'w6M=', 'w6Q=', 'w6U=', 'w6Y=', 'w6c=', 'w6g=', 'w6k=', 'w6o=', 'w6s=', 'w6w=', 'w60=', 'w64=', 'w68=', 'w7A=', 'w7E=', 'w7I=', 'w7M=', 'w7Q=', 'w7U=', 'w7Y=', 'w7c=', 'w7g=', 'w7k=', 'w7o=', 'w7s=', 'w7w=', 'w70=', 'w74=', 'w78=']
+
+ord = (char: @string) {
+  if char.length == 1 {
+    b64 = $.b64encode(char)
+    return ascii_table.index(b64)
+  } else {
+    throw "Parameter 'char' must be a single character."
+  }
+}
+
+chr = (int: @number) {
+  if int < 256 {
+    return $.b64decode(ascii_table[int])
+  } else {
+    throw "Ascii code cannot be bigger than 255."
+  }
+}
+
+return {
+  ord: ord,
+  chr: chr
+}
