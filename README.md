@@ -41,7 +41,7 @@ A collection of useful SPWN utilities and modules
 > ### [SPWN-it Discord Bot](https://github.com/typicaldev1/spwn-it-bot) by `typicaldev1`
 > A Discord bot for running SPWN code & searching for pckp/(spck?) packages
 
-> ### [spwned](https://github.com/sertdfyguhi/spwned) by `Bestgamer08` and `The REAL T-Shirt`
+> ### [spwned](https://github.com/sertdfyguhi/spwned) by `Bestgamer08` and `sertdfyguhi`
 > spwn in browser, basically
 
 > ### [collection](utils/collection.spwn) by `camila314`
@@ -50,7 +50,7 @@ A collection of useful SPWN utilities and modules
 > ### [ASCII code converter](utils/ascii.spwn) by `sertdfyguhi`
 > ascii code convert in SPWN
 
-> ### [BF interpreter](utils/bf-interpreter.spwn) by `Sput7Nix`
+> ### [BF interpreter](utils/bf-interpreter.spwn) by `Spu7Nix`
 > Brainf#ck interpreter. No setup needed
 
 > ### [pi.spwn](utils/pi.spwn) by `adaf`
