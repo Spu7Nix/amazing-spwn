@@ -56,9 +56,15 @@ A collection of useful SPWN utilities and modules
 > ### [pi.spwn](utils/pi.spwn) by `adaf`
 > Calculates PI number
 
+> ## [spwn-ws](github.com/Unzor/spwn-ws)
+> A WebSocket implementation for SPWN, kinda.
+
 ## Repositories
 > ### [spwn-quines](https://github.com/Deltara3/spwn-quines)
 > A collection of SPWN quines
 
 > ### [spwn-utils](https://github.com/DexterHill0/spwn-utils)
 > Contains a collection of useful SPWN utils.
+
+> ### [SPGHTT](https://github.com/Unzor/spghtt)
+> A SPWN package manager written in mostly SPWN.
