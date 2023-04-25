@@ -31,9 +31,6 @@ A collection of useful SPWN utilities and modules
 > ### [spwn-rng](https://github.com/Wyliemaster/spwn-rng) by `Wylie`
 > Simple random number generator
 
-> ### [spwn-advancedrng](https://github.com/typicaldev1/spwn-advancedrng) by `typicaldev1`
-> This library allows you to generate pseudo-random numbers in Geometry Dash.
-
 > ### [Conway's Game Of Life](utils/gol.spwn) by `Sput7Nix`
 > COnway's Game Of Life
 
