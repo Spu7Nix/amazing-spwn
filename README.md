@@ -37,6 +37,9 @@ A collection of useful SPWN utilities and modules
 > ### [Conway's Game Of Life](utils/gol.spwn) by `Sput7Nix`
 > COnway's Game Of Life
 
+> ### [VCTR](https://github.com/RealSput/VCTR) by `Bestgamer08`
+> Runtime array/vector implementation in SPWN, done in 62 lines but very powerful
+
 ## Utilities
 > ### [SPWN-it Discord Bot](https://github.com/typicaldev1/spwn-it-bot) by `typicaldev1`
 > A Discord bot for running SPWN code & searching for pckp/(spck?) packages
